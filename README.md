@@ -4,6 +4,8 @@ UNIX-based and windows system equivalent commands.
 
 I will be adding many more commands.
 
+> **NOTE**: I'm mainly focusing on command prompt on windows.
+
 ## UNIX
 
 <details>
