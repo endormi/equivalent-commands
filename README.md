@@ -101,6 +101,17 @@ I will be adding many more commands.
   ```
 </details>
 
+<details>
+  <summary><code>which</code> command</summary>
+  <br />
+
+  ```batch
+    :: `which` command is `where` on windows.
+
+    where git
+  ```
+</details>
+
 ## Windows
 
 <details>
@@ -179,5 +190,16 @@ I will be adding many more commands.
     # `copy nul` or `type nul` command is `touch` command on UNIX.
 
     touch file.txt
+  ```
+</details>
+
+<details>
+  <summary><code>where</code> command</summary>
+  <br />
+
+  ```bash
+    # `where` command is `which` on UNIX.
+
+    which git
   ```
 </details>
