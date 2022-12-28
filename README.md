@@ -8,7 +8,7 @@ I will be adding many more commands.
 
 ## UNIX
 
-<details>
+<details markdown="1">
   <summary><code>cat</code> command</summary>
   <br />
 
@@ -19,7 +19,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>grep</code> command</summary>
   <br />
 
@@ -36,7 +36,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>less</code> command</summary>
   <br />
 
@@ -48,7 +48,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>clear</code> command</summary>
   <br />
 
@@ -60,7 +60,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>ls</code> command</summary>
   <br />
 
@@ -72,7 +72,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>rm</code> command</summary>
   <br />
 
@@ -84,7 +84,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>touch</code> command</summary>
   <br />
 
@@ -101,7 +101,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>which</code> command</summary>
   <br />
 
