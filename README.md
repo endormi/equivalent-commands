@@ -114,7 +114,7 @@ I will be adding many more commands.
 
 ## Windows
 
-<details>
+<details markdown="1">
   <summary><code>type</code> command</summary>
   <br />
 
@@ -125,7 +125,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>findstr</code> command (Command Prompt) or <code>Select-String</code> command (PowerShell)</summary>
   <br />
 
@@ -136,7 +136,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>more</code> command</summary>
   <br />
 
@@ -148,7 +148,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>cls</code> command</summary>
   <br />
 
@@ -160,7 +160,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>dir</code> command</summary>
   <br />
 
@@ -171,7 +171,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>del</code> command</summary>
   <br />
 
@@ -182,7 +182,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>copy nul</code> and <code>type nul</code> command</summary>
   <br />
 
@@ -193,7 +193,7 @@ I will be adding many more commands.
   ```
 </details>
 
-<details>
+<details markdown="1">
   <summary><code>where</code> command</summary>
   <br />
 
