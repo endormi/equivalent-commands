@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Equivalent commands</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="content">
+    <h1>Equivalent-Commands</h1>
+<p>UNIX-based and windows system equivalent commands.</p>
+<p>I will be adding many more commands.</p>
+<blockquote>
+<p><strong>NOTE</strong>: I'm mainly focusing on command prompt on windows.</p>
+</blockquote>
+<h2>UNIX</h2>
+<details markdown="1">
+<summary><code>cat</code> command</summary>
+<br />
+<pre><code>
+:: `cat` command is `type` on windows.
+type file.txt
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>grep</code> command</summary>
+<br />
+<pre><code>
+:: `grep` command is `findstr` (Command Prompt) on windows.
+findstr "foo"
+</code></pre>
+<pre><code>
+# `grep` command is `Select-String` (PowerShell) on windows.
+Select-String "foo"
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>less</code> command</summary>
+<br />
+<pre><code>
+:: `less` command is equivalent to `more` command on windows, but `less` is more powerful.
+:: you can install `less` on windows, but `more` is on by default.
+more
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>clear</code> command</summary>
+<br />
+<pre><code>
+:: `clear` command is `cls` command on windows.
+:: `clear` command works on PowerShell as well.
+cls
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>ls</code> command</summary>
+<br />
+<pre><code>
+:: `ls` command is `dir` command on windows.
+:: `ls` command works on PowerShell as well.
+dir
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>rm</code> command</summary>
+<br />
+<pre><code>
+:: `rm` command is `del` command on windows.
+:: `rm` command works on PowerShell as well.
+del file.txt
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>touch</code> command</summary>
+<br />
+<pre><code>
+:: `touch` command is `copy nul` or `type nul` command on windows.
+type nul >> "file.txt"
+</code></pre>
+<pre><code>
+:: Does not work on PowerShell.
+copy nul "file.txt"
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>which</code> command</summary>
+<br />
+<pre><code>
+:: `which` command is `where` on windows.
+where git
+</code></pre>
+</details>
+<h2>Windows</h2>
+<details markdown="1">
+<summary><code>type</code> command</summary>
+<br />
+<pre><code>
+# `type` command is `cat` on UNIX.
+cat file.txt
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>findstr</code> command (Command Prompt) or <code>Select-String</code> command (PowerShell)</summary>
+<br />
+<pre><code>
+# `findstr` and `Select-String` command is grep on UNIX.
+grep "foo"
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>more</code> command</summary>
+<br />
+<pre><code>
+# `more` command is equivalent to `less` command on UNIX, but it's not as powerful.
+# you can install `less` on windows.
+less
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>cls</code> command</summary>
+<br />
+<pre><code>
+# `cls` command is `clear` command on UNIX.
+# `clear` command works on PowerShell as well.
+clear
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>dir</code> command</summary>
+<br />
+<pre><code>
+# `dir` command is `ls` command on UNIX.
+ls
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>del</code> command</summary>
+<br />
+<pre><code>
+# `del` command is `rm` command on UNIX.
+rm file.txt
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>copy nul</code> and <code>type nul</code> command</summary>
+<br />
+<pre><code>
+# `copy nul` or `type nul` command is `touch` command on UNIX.
+touch file.txt
+</code></pre>
+</details>
+<details markdown="1">
+<summary><code>where</code> command</summary>
+<br />
+<pre><code>
+# `where` command is `which` on UNIX.
+which git
+</code></pre>
+</details>
+</div>
+
+<footer>
+<p>Made by me</p>
+</footer>
+</body>
+</html>
