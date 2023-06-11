@@ -6,7 +6,7 @@ I will be adding many more commands.
 
 > **NOTE**: I'm mainly focusing on command prompt on windows.
 
-## UNIX
+## UNIX Test
 
 <details markdown="1">
   <summary><code>cat</code> command</summary>
