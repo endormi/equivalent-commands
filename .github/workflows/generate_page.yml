@@ -2,6 +2,8 @@ name: Generate page
 
 on:
   push:
+    branches:
+      - main
 
 jobs:
   generate:
@@ -19,7 +21,7 @@ jobs:
           git config user.email "<>"
           if [ -n "$(git status --porcelain)" ]; then
             git commit -am "Generate HTML page"
-            git push origin changes
+            git push origin main
           else
             echo "no changes";
           fi
