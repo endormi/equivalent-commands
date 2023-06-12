@@ -1,0 +1,27 @@
+name: Generate page
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install markdown
+        run: pip install markdown
+      - name: Generate HTML
+        run: python generate_page.py
+
+      - name: Git config and commit
+        run: |
+          git config user.name "Generate++"
+          git config user.email "<>"
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -am "Generate HTML page"
+            git push origin main
+          else
+            echo "no changes";
+          fi
