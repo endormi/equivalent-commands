@@ -37,6 +37,7 @@ with codecs.open('index.html', mode='w', encoding='utf-8') as file:
 <html>
 <head>
     <title>Equivalent commands</title>
+    <link rel="stylesheet" href="https://unpkg.com/2077-css/minified/main.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -46,7 +47,7 @@ with codecs.open('index.html', mode='w', encoding='utf-8') as file:
 </div>
 
 <footer>
-<p>Made by me</p>
+<p>nil+ .656e646f726d69</p>
 </footer>
 </body>
 </html>''')
